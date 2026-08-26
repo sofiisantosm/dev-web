@@ -1,1 +1,51 @@
 /* === CSS GERAL === */
+html {
+  font-size: clamp(1rem, calc(0.5rem + 0.8vw), 1.625rem);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* === HEADER === */
+
+header {
+    text-align: center;
+    padding: 5vw 0 0 0;
+}
+
+header nav ul li {
+    margin: 3vw;
+}
+
+header nav ul li.font-yellow {
+    color: #FBBC05;
+} 
+
+header nav ul li.btn a {
+    background-color: #FBBC05;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+@media only screen and (min-width: 600px) {
+    header {
+        padding: 2vw 5vw 2vw;
+    }
+    
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    header nav ul {
+        display: flex;
+        align-items: center;
+
+    }
+
+    header nav ul li {
+        margin: 0%;
+        padding: 8px;
+    }
+} 
