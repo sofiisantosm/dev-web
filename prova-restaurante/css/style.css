@@ -1,0 +1,157 @@
+/* === IMPORTAÇÃO DE FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+/*
+Follow - font-family: "Fredoka", sans-serif;
+Medu - Oswald
+*/
+/* ==========================*/
+
+/* ==== FORMATAÇÃO GERAL === */
+html{
+    font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
+    font-family: "Epilogue", sans-serif;
+}
+h1{
+    font-family: "Nunito", sans-serif;
+}
+h2,h3,h4,h5,h6{
+    font-family: "Oswald", sans-serif;
+}
+
+
+/* === HEADER === */
+
+header nav {
+    text-align: center;
+}
+
+header a {
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
+header nav ul li.btn {
+    background-color: #FFC222;
+    margin: 0 36vw 4vw;
+    border-radius: 4px;
+}
+
+section.banner {
+    background-color:#ffe1e1 ;
+    padding: 2vw 10vw;
+}
+
+section.banner h2 {
+    font-family: 'nunito';
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+
+section.banner p {
+    font-size: 0.5rem;
+    padding: 2vw 0;
+}
+
+section.banner a {
+    color: white;
+    background-color: #ED274B;
+    padding: 2vw 4vw;
+    border-radius: 17px;
+    display:inline-block;
+    font-size: 0.8rem;
+}
+
+section.banner img {
+    padding: 3vw;
+}
+
+section.products {
+    background-color:#dfecff ;
+    padding: 2vw 10vw;
+}
+
+section.products p {
+    color: #00A149;
+    font-size: 0.6rem;
+    font-weight: bold;
+    padding: 5vw 0 0 0;
+}
+
+section.products h2 {
+    font-size:1.6rem;
+    line-height: 10vw;
+    padding: 0 0 8vw 0;
+}
+
+section.products ul {
+    text-align: center;
+}
+
+section.products ul li {
+    background-color: white;
+    margin: 6vw;
+    padding: 6vw;
+}
+
+section.products ul li h3 {
+    font-weight: bold;
+    border-bottom:2px solid #FFD40D;
+    margin: 0 18vw;
+}
+
+section.products span p {
+    color: #FFD40D;
+    line-height: 0.5vw;
+}
+
+section.follow {
+    text-align: center;
+    padding: 2vw 10vw;
+}
+
+section.follow a img {
+    width: 15%;
+}
+
+section.follow h2 {
+    font-size: 1.2rem;
+    font-family: 'nunito';
+    font-weight: bold;
+    padding: 2vw;
+}
+
+section.follow p {
+    font-size: 0.5rem;
+    padding: 0 0 7vw 0;
+}
+
+section.follow ul li {
+    margin: 5vw;
+}
+
+footer {
+    background-color: #dfecff;
+}
+
+footer p {
+    font-size: 0.5rem;
+    padding: 10vw 5vw;
+    color: #E©D274B;
+    font-weight: bold;
+}
+
+footer p span {
+    color: black;
+}
+
+/* MEDIA QUERY - DESKTOP */
+@media  screen and (min-width: 600px) {
+    header nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header nav ul {
+        
+    }
+}
