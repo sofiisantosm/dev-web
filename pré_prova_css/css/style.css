@@ -1,0 +1,153 @@
+/*=== CSS GERAL ===*/
+
+html{
+    font-family:"Montserrat";
+}
+
+.btn{
+    background: #96BB7C;
+    color: white;
+    padding: 10px 20px ;
+    border-radius: 10px;
+}
+
+.btn-border{
+    padding: 10px 20px ;
+    border-radius: 10px;
+    color: #96BB7C;
+    border: 2px solid;
+}
+
+
+
+
+
+/*=== Header ===*/
+
+header{
+    background:#FFF2F3;
+    display: flex;
+    justify-content: space-between;
+    padding: 5vw 10vw 5vw 10vw;
+}
+
+section.banner h3{
+    color:#96BB7C;
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin: 5vw 0 3vw 0;
+}
+
+section.banner h2{
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin: 3vw 0 3vw 0;
+}
+
+
+header nav ul{
+    display: flex;
+    gap: 16px ;
+    font-size: 0.8rem;
+}
+
+
+header h1{
+    font-weight: 600;
+}
+
+/* === banner ===*/
+
+section.banner {
+    background:#FFF2F3;
+    padding: 5vw 10vw 0vw 10vw;
+    display: flex;
+    gap: 3vw;
+}
+
+
+section.banner p{
+    color: #737373;
+    font-size: 20px;
+    margin: 3vw 0 3vw 0;
+}
+
+/* === team ===*/
+
+section.team {
+    padding: 4vw;
+}
+
+section.team h3{
+   color:#96BB7C;
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin: 5vw 10vw 1vw 10vw; 
+}
+
+section.team h2{
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin: 1vw 10vw 2vw 10vw;
+}
+
+section.team > p{
+    color: #737373;
+    font-size: 20px;
+    margin: 2vw 0 3vw 10vw;
+    font-size: 1rem;
+}
+
+section.team ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+section.team ul li{
+    width: 14%;
+    text-align: center;
+    background: #ECF0E8;
+}
+
+section.team h4 {
+    font-weight: 600;
+}
+
+section.team p {
+    color: #737373;
+}
+
+section.newsletter {
+    background: #FFF2F3;
+    padding: 5vw 10vw 5vw 10vw;
+    text-align: center;
+}
+
+section.newsletter h3 {
+    color: #96BB7C;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+section.newsletter h2 {
+    font-weight: 600;
+    padding: 2vw;
+}
+
+section.newsletter p {
+    color: #737373;
+    font-size: 0.9rem;
+}
+
+footer {
+    display:flex ;
+    justify-content: space-between;
+    padding: 5vw 10vw 5vw 10vw;
+}
+
+footer p {
+    color: #737373;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
