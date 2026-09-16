@@ -27,6 +27,43 @@ header nav ul li.btn a {
     display: inline-block;
 }
 
+section.banner{
+    padding: 5vw 10vw 5vw 10vw;
+    background: url(../images/background-banner.png);
+    background-size: 100% auto;
+    margin: 5vw 0vw 5vw 0vw;
+    text-align: center;
+}
+section.banner div.img-doguinho{
+    display: none;
+}
+section.banner h2{
+    font-weight: 700;
+    color: #252B42;
+    font-size: 1.5rem;
+}
+section.banner p{
+    font-size: 0.7rem;
+    margin: 20px 0 0 0;
+}
+section.banner p a{
+    background-color: #252B42;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    gap: 10px;
+}
+section.banner p.buttons{
+    display: flex;
+    gap: 20px;
+}
+section.banner p.buttons img{
+    max-width: 20px;
+}
+
 @media only screen and (min-width: 600px) {
     header {
         padding: 2vw 5vw 2vw;
@@ -47,5 +84,13 @@ header nav ul li.btn a {
     header nav ul li {
         margin: 0%;
         padding: 8px;
+    }
+
+        section.banner{
+        display: flex;
+        align-items: center;
+    }
+    section.banner div.img-doguinho{
+        display: block;
     }
 } 
