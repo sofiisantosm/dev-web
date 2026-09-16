@@ -64,6 +64,61 @@ section.banner p.buttons img{
     max-width: 20px;
 }
 
+section.features div.imagem img {
+    display: none;
+}
+
+section.features {
+    padding: 5vw 10vw;
+    text-align: center;
+}
+
+section.features h2 {
+    font-size: 1.3rem;
+    padding: 3vw;
+    font-weight: bold;
+    color: #252B42;
+}
+
+section.features p {
+    color: gray;
+    font-size: 0.8rem;
+    padding: 3vw;
+}
+
+section.features ul {
+    padding: 10vw;
+}
+
+section.features ul li {
+    padding: 5vw;
+}
+
+section.features ul li h3 {
+    font-weight: bold;
+    padding:2vw;
+    font-size: 1.1rem;
+}
+
+section.call {
+    background-color: #FBBC05;
+    border-radius: 10px;
+    margin: 3vw 5vw;
+    color: white;
+    padding: 5vw;
+}
+
+section.call h2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 2vw;
+}
+
+section.call p {
+    font-size: 0.8rem;
+    padding: 2vw;
+}
+
 @media only screen and (min-width: 600px) {
     header {
         padding: 2vw 5vw 2vw;
@@ -93,4 +148,65 @@ section.banner p.buttons img{
     section.banner div.img-doguinho{
         display: block;
     }
+
+    section.features h2 {
+        padding: 2vw;
+    }
+
+    section.features p {
+        padding:0%;
+    }
+
+    section.features div.imagem img {
+        display: block;
+    }
+
+    section.features > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    section.features ul {
+        padding: 6vw;
+    }
+
+    section.features ul li {
+        padding: 2vw;
+    }
+
+    section.features ul li h3 {
+        padding: 0%;
+    }
+
+    section.features ul li p {
+        padding: 0%;
+    }
+
+    section.features div.lista ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 40vw;
+
+    }
+
+    section.features div.lista ul li {
+        width: 40%;
+    }
+
+    section.call {
+        padding: 3vw;
+    }
+
+    section.call h2 {
+        padding: 1vw;
+    }
+
+    section.call p {
+        padding: 1vw;
+        width: 35%;
+    }
+    
 } 
