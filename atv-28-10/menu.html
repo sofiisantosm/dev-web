@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submenu</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Produtos</a>
+                    <ul>
+                        <li><a href="#">Notebook</a></li>
+                        <li><a href="#">Smartphones</a></li>
+                        <li><a href="#">Acessórios</a></li>
+                        <li><a href="#">Ofertas</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Serviços</a>
+                    <ul>
+                        <li><a href="#">Troca</a></li>
+                        <li><a href="#">Venda</a></li>
+                        <li><a href="#">Reparo</a></li>
+                        <li><a href="#">Reserva</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    header {
+        padding: 2vw 16vw;
+        text-align: center;
+        
+    }
+
+    header nav > ul {
+        display: flex;
+       justify-content: space-around;
+        text-align: center;
+        background-color: rgb(37, 37, 58);
+        
+        border-radius: 15px;
+        color: white;
+    }
+
+    header ul >li{
+        padding: 1.5vw 3vw;
+    }
+     header ul li:hover{
+        background: rgb(105, 83, 156);
+    }
+
+      header ul li ul li:hover{
+        background: rgb(37, 37, 58);
+        color: white;
+    }
+
+    header nav ul li ul {
+        /*display: none;*/
+        opacity: 0;
+        position: absolute;
+        transition: opacity 1.3s;
+        background-color: white;
+        border: 2px solid rgb(37, 37, 58) ;
+        border-radius: 15px;
+        padding: 1.5vw 2vw;
+        text-align: left;
+        color:rgb(37, 37, 58) ;
+    }
+
+    header nav ul li:hover ul {
+        /*display: block;*/
+        opacity:1;
+    }
+
+
+</style>
+
+</html>
